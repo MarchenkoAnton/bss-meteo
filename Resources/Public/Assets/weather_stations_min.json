@@ -1,0 +1,1424 @@
+{
+  "63": {
+    "station_id": "ABO",
+    "station_name": "Adelboden",
+    "canton": "BE",
+    "altitude_masl": 1321.0,
+    "lat": 46.491703,
+    "lon": 7.560703,
+    "point_id": 63
+  },
+  "464": {
+    "station_id": "AEG",
+    "station_name": "Oberägeri",
+    "canton": "ZG",
+    "altitude_masl": 724.0,
+    "lat": 47.133636,
+    "lon": 8.608206,
+    "point_id": 464
+  },
+  "37": {
+    "station_id": "AIG",
+    "station_name": "Aigle",
+    "canton": "VD",
+    "altitude_masl": 381.0,
+    "lat": 46.326647,
+    "lon": 6.924472,
+    "point_id": 37
+  },
+  "44": {
+    "station_id": "ALT",
+    "station_name": "Altdorf",
+    "canton": "UR",
+    "altitude_masl": 438.0,
+    "lat": 46.887069,
+    "lon": 8.621894,
+    "point_id": 44
+  },
+  "405": {
+    "station_id": "AND",
+    "station_name": "Andeer",
+    "canton": "GR",
+    "altitude_masl": 987.0,
+    "lat": 46.610139,
+    "lon": 9.431981,
+    "point_id": 405
+  },
+  "10": {
+    "station_id": "ANT",
+    "station_name": "Andermatt",
+    "canton": "UR",
+    "altitude_masl": 1435.0,
+    "lat": 46.630914,
+    "lon": 8.580553,
+    "point_id": 10
+  },
+  "359": {
+    "station_id": "ARH",
+    "station_name": "Altenrhein",
+    "canton": "SG",
+    "altitude_masl": 398.0,
+    "lat": 47.483631,
+    "lon": 9.56685,
+    "point_id": 359
+  },
+  "1": {
+    "station_id": "ARO",
+    "station_name": "Arosa",
+    "canton": "GR",
+    "altitude_masl": 1878.0,
+    "lat": 46.792661,
+    "lon": 9.679014,
+    "point_id": 1
+  },
+  "864": {
+    "station_id": "ATT",
+    "station_name": "Les Attelas",
+    "canton": "VS",
+    "altitude_masl": 2734.0,
+    "lat": 46.0991,
+    "lon": 7.26865,
+    "point_id": 864
+  },
+  "853": {
+    "station_id": "BAN",
+    "station_name": "Bantiger",
+    "canton": "BE",
+    "altitude_masl": 942.0,
+    "lat": 46.977806,
+    "lon": 7.528667,
+    "point_id": 853
+  },
+  "75": {
+    "station_id": "BAS",
+    "station_name": "Basel / Binningen",
+    "canton": "BL",
+    "altitude_masl": 316.0,
+    "lat": 47.541142,
+    "lon": 7.583525,
+    "point_id": 75
+  },
+  "23": {
+    "station_id": "BEH",
+    "station_name": "Passo del Bernina",
+    "canton": "GR",
+    "altitude_masl": 2260.0,
+    "lat": 46.409158,
+    "lon": 10.019567,
+    "point_id": 23
+  },
+  "78": {
+    "station_id": "BER",
+    "station_name": "Bern / Zollikofen",
+    "canton": "BE",
+    "altitude_masl": 553.0,
+    "lat": 46.990744,
+    "lon": 7.464061,
+    "point_id": 78
+  },
+  "85": {
+    "station_id": "BEZ",
+    "station_name": "Beznau",
+    "canton": "AG",
+    "altitude_masl": 326.0,
+    "lat": 47.557256,
+    "lon": 8.233325,
+    "point_id": 85
+  },
+  "415": {
+    "station_id": "BIA",
+    "station_name": "Biasca",
+    "canton": "TI",
+    "altitude_masl": 278.0,
+    "lat": 46.336053,
+    "lon": 8.978197,
+    "point_id": 415
+  },
+  "849": {
+    "station_id": "BIE",
+    "station_name": "Bière",
+    "canton": "VD",
+    "altitude_masl": 684.0,
+    "lat": 46.524908,
+    "lon": 6.342386,
+    "point_id": 849
+  },
+  "131": {
+    "station_id": "BIN",
+    "station_name": "Binn",
+    "canton": "VS",
+    "altitude_masl": 1479.0,
+    "lat": 46.367661,
+    "lon": 8.192306,
+    "point_id": 131
+  },
+  "409": {
+    "station_id": "BIV",
+    "station_name": "Bivio",
+    "canton": "GR",
+    "altitude_masl": 1856.0,
+    "lat": 46.462494,
+    "lon": 9.668639,
+    "point_id": 409
+  },
+  "666": {
+    "station_id": "BIZ",
+    "station_name": "Bischofszell / Sitterdorf",
+    "canton": "TG",
+    "altitude_masl": 507.0,
+    "lat": 47.508828,
+    "lon": 9.266797,
+    "point_id": 666
+  },
+  "20": {
+    "station_id": "BLA",
+    "station_name": "Blatten, Lötschental",
+    "canton": "VS",
+    "altitude_masl": 1538.0,
+    "lat": 46.420453,
+    "lon": 7.823194,
+    "point_id": 20
+  },
+  "731": {
+    "station_id": "BOL",
+    "station_name": "Boltigen",
+    "canton": "BE",
+    "altitude_masl": 820.0,
+    "lat": 46.623519,
+    "lon": 7.384206,
+    "point_id": 731
+  },
+  "268": {
+    "station_id": "BOU",
+    "station_name": "Bouveret",
+    "canton": "VS",
+    "altitude_masl": 374.0,
+    "lat": 46.393447,
+    "lon": 6.857006,
+    "point_id": 268
+  },
+  "852": {
+    "station_id": "BRL",
+    "station_name": "La BrÈvine",
+    "canton": "NE",
+    "altitude_masl": 1050.0,
+    "lat": 46.983844,
+    "lon": 6.610297,
+    "point_id": 852
+  },
+  "857": {
+    "station_id": "BRZ",
+    "station_name": "Brienz",
+    "canton": "BE",
+    "altitude_masl": 567.0,
+    "lat": 46.740719,
+    "lon": 8.060864,
+    "point_id": 857
+  },
+  "606": {
+    "station_id": "BUF",
+    "station_name": "Buffalora",
+    "canton": "GR",
+    "altitude_masl": 1971.0,
+    "lat": 46.648408,
+    "lon": null,
+    "point_id": 606
+  },
+  "67": {
+    "station_id": "BUS",
+    "station_name": "Buchs / Aarau",
+    "canton": "AG",
+    "altitude_masl": 387.0,
+    "lat": 47.384381,
+    "lon": 8.07955,
+    "point_id": 67
+  },
+  "65": {
+    "station_id": "CDF",
+    "station_name": "La Chaux-de-Fonds",
+    "canton": "NE",
+    "altitude_masl": 1017.0,
+    "lat": 47.082947,
+    "lon": 6.792314,
+    "point_id": 65
+  },
+  "521": {
+    "station_id": "CDM",
+    "station_name": "Col des Mosses",
+    "canton": "VD",
+    "altitude_masl": 1412.0,
+    "lat": 46.391525,
+    "lon": 7.098239,
+    "point_id": 521
+  },
+  "843": {
+    "station_id": "CEV",
+    "station_name": "Cevio",
+    "canton": "TI",
+    "altitude_masl": 417.0,
+    "lat": 46.320486,
+    "lon": 8.603161,
+    "point_id": 843
+  },
+  "76": {
+    "station_id": "CGI",
+    "station_name": "Nyon / Changins",
+    "canton": "VD",
+    "altitude_masl": 458.0,
+    "lat": 46.401053,
+    "lon": 6.227722,
+    "point_id": 76
+  },
+  "42": {
+    "station_id": "CHA",
+    "station_name": "Chasseral",
+    "canton": "BE",
+    "altitude_masl": 1594.0,
+    "lat": 47.131761,
+    "lon": 7.054367,
+    "point_id": 42
+  },
+  "309": {
+    "station_id": "CHB",
+    "station_name": "Les Charbonnières",
+    "canton": "VD",
+    "altitude_masl": 1045.0,
+    "lat": 46.67015,
+    "lon": 6.312428,
+    "point_id": 309
+  },
+  "13": {
+    "station_id": "CHD",
+    "station_name": "Château-d'Oex",
+    "canton": "VD",
+    "altitude_masl": 1028.0,
+    "lat": 46.479819,
+    "lon": 7.139656,
+    "point_id": 13
+  },
+  "15": {
+    "station_id": "CHM",
+    "station_name": "Chaumont",
+    "canton": "NE",
+    "altitude_masl": 1136.0,
+    "lat": 47.049169,
+    "lon": 6.978825,
+    "point_id": 15
+  },
+  "27": {
+    "station_id": "CHU",
+    "station_name": "Chur",
+    "canton": "GR",
+    "altitude_masl": 556.0,
+    "lat": 46.870572,
+    "lon": 9.530761,
+    "point_id": 27
+  },
+  "162": {
+    "station_id": "CHZ",
+    "station_name": "Cham",
+    "canton": "ZG",
+    "altitude_masl": 443.0,
+    "lat": 47.188278,
+    "lon": 8.464642,
+    "point_id": 162
+  },
+  "87": {
+    "station_id": "CIM",
+    "station_name": "Cimetta",
+    "canton": "TI",
+    "altitude_masl": 1661.0,
+    "lat": 46.200467,
+    "lon": 8.79165,
+    "point_id": 87
+  },
+  "847": {
+    "station_id": "CMA",
+    "station_name": "Crap Masegn",
+    "canton": "GR",
+    "altitude_masl": 2468.0,
+    "lat": 46.842275,
+    "lon": 9.180042,
+    "point_id": 847
+  },
+  "92": {
+    "station_id": "COM",
+    "station_name": "Acquarossa / Comprovasco",
+    "canton": "TI",
+    "altitude_masl": 575.0,
+    "lat": 46.459517,
+    "lon": 8.935486,
+    "point_id": 92
+  },
+  "74": {
+    "station_id": "COV",
+    "station_name": "Piz Corvatsch",
+    "canton": "GR",
+    "altitude_masl": 3294.0,
+    "lat": 46.418039,
+    "lon": 9.821308,
+    "point_id": 74
+  },
+  "182": {
+    "station_id": "COY",
+    "station_name": "Courtelary",
+    "canton": "BE",
+    "altitude_masl": 695.0,
+    "lat": 47.180811,
+    "lon": 7.090656,
+    "point_id": 182
+  },
+  "844": {
+    "station_id": "CRM",
+    "station_name": "Cressier",
+    "canton": "NE",
+    "altitude_masl": 430.0,
+    "lat": 47.047581,
+    "lon": 7.059147,
+    "point_id": 844
+  },
+  "26": {
+    "station_id": "DAV",
+    "station_name": "Davos",
+    "canton": "GR",
+    "altitude_masl": 1594.0,
+    "lat": 46.812969,
+    "lon": 9.843558,
+    "point_id": 26
+  },
+  "6": {
+    "station_id": "DEM",
+    "station_name": "DelÈmont",
+    "canton": "JU",
+    "altitude_masl": 439.0,
+    "lat": 47.351706,
+    "lon": 7.349567,
+    "point_id": 6
+  },
+  "856": {
+    "station_id": "DIA",
+    "station_name": "Les Diablerets",
+    "canton": "VD",
+    "altitude_masl": 2964.0,
+    "lat": 46.32675,
+    "lon": 7.203781,
+    "point_id": 856
+  },
+  "54": {
+    "station_id": "DIS",
+    "station_name": "Disentis",
+    "canton": "GR",
+    "altitude_masl": 1197.0,
+    "lat": 46.706569,
+    "lon": 8.853478,
+    "point_id": 54
+  },
+  "31": {
+    "station_id": "DOL",
+    "station_name": "La DÙle",
+    "canton": "VD",
+    "altitude_masl": 1670.0,
+    "lat": 46.424794,
+    "lon": 6.099453,
+    "point_id": 31
+  },
+  "7": {
+    "station_id": "EBK",
+    "station_name": "Ebnat-Kappel",
+    "canton": "SG",
+    "altitude_masl": 623.0,
+    "lat": 47.273389,
+    "lon": 9.108494,
+    "point_id": 7
+  },
+  "867": {
+    "station_id": "EGH",
+    "station_name": "Eggishorn",
+    "canton": "VS",
+    "altitude_masl": 2892.0,
+    "lat": 46.426528,
+    "lon": 8.092728,
+    "point_id": 867
+  },
+  "854": {
+    "station_id": "EGO",
+    "station_name": "Egolzwil",
+    "canton": "LU",
+    "altitude_masl": 522.0,
+    "lat": 47.179428,
+    "lon": 8.004758,
+    "point_id": 854
+  },
+  "9": {
+    "station_id": "EIN",
+    "station_name": "Einsiedeln",
+    "canton": "SZ",
+    "altitude_masl": 911.0,
+    "lat": 47.133042,
+    "lon": 8.756556,
+    "point_id": 9
+  },
+  "8": {
+    "station_id": "ELM",
+    "station_name": "Elm",
+    "canton": "GL",
+    "altitude_masl": 958.0,
+    "lat": 46.923742,
+    "lon": 9.175347,
+    "point_id": 8
+  },
+  "69": {
+    "station_id": "ENG",
+    "station_name": "Engelberg",
+    "canton": "OW",
+    "altitude_masl": 1036.0,
+    "lat": 46.821639,
+    "lon": 8.410514,
+    "point_id": 69
+  },
+  "865": {
+    "station_id": "EVI",
+    "station_name": "Evionnaz",
+    "canton": "VS",
+    "altitude_masl": 482.0,
+    "lat": 46.182953,
+    "lon": 7.026747,
+    "point_id": 865
+  },
+  "88": {
+    "station_id": "EVO",
+    "station_name": "Evolène / Villa",
+    "canton": "VS",
+    "altitude_masl": 1825.0,
+    "lat": 46.112211,
+    "lon": 7.508631,
+    "point_id": 88
+  },
+  "39": {
+    "station_id": "FAH",
+    "station_name": "Fahy",
+    "canton": "JU",
+    "altitude_masl": 596.0,
+    "lat": 47.423814,
+    "lon": 6.941194,
+    "point_id": 39
+  },
+  "711": {
+    "station_id": "FLU",
+    "station_name": "Fl¸hli, LU",
+    "canton": "LU",
+    "altitude_masl": 940.0,
+    "lat": 46.889436,
+    "lon": 8.020336,
+    "point_id": 711
+  },
+  "77": {
+    "station_id": "FRE",
+    "station_name": "Bullet / La FrÈtaz",
+    "canton": "VD",
+    "altitude_masl": 1205.0,
+    "lat": 46.840622,
+    "lon": 6.576369,
+    "point_id": 77
+  },
+  "294": {
+    "station_id": "FRU",
+    "station_name": "Frutigen",
+    "canton": "BE",
+    "altitude_masl": 756.0,
+    "lat": 46.599003,
+    "lon": 7.657542,
+    "point_id": 294
+  },
+  "848": {
+    "station_id": "GEN",
+    "station_name": "Monte Generoso",
+    "canton": "TI",
+    "altitude_masl": 1600.0,
+    "lat": 45.927592,
+    "lon": 9.017875,
+    "point_id": 848
+  },
+  "952": {
+    "station_id": "GES",
+    "station_name": "Gersau",
+    "canton": "SZ",
+    "altitude_masl": 521.0,
+    "lat": 46.996069,
+    "lon": 8.523442,
+    "point_id": 952
+  },
+  "915": {
+    "station_id": "GIH",
+    "station_name": "Giswil",
+    "canton": "OW",
+    "altitude_masl": 471.0,
+    "lat": 46.849447,
+    "lon": 8.190225,
+    "point_id": 915
+  },
+  "57": {
+    "station_id": "GLA",
+    "station_name": "Glarus",
+    "canton": "GL",
+    "altitude_masl": 517.0,
+    "lat": 47.034586,
+    "lon": 9.066961,
+    "point_id": 57
+  },
+  "80": {
+    "station_id": "GOE",
+    "station_name": "Gösgen",
+    "canton": "SO",
+    "altitude_masl": 380.0,
+    "lat": 47.363147,
+    "lon": 7.973733,
+    "point_id": 80
+  },
+  "866": {
+    "station_id": "GOR",
+    "station_name": "Gornergrat",
+    "canton": "VS",
+    "altitude_masl": 3129.0,
+    "lat": 45.983644,
+    "lon": 7.785944,
+    "point_id": 866
+  },
+  "396": {
+    "station_id": "GOS",
+    "station_name": "Göschenen",
+    "canton": "UR",
+    "altitude_masl": 950.0,
+    "lat": 46.692678,
+    "lon": 8.595364,
+    "point_id": 396
+  },
+  "14": {
+    "station_id": "GRA",
+    "station_name": "Fribourg / Grangeneuve",
+    "canton": "FR",
+    "altitude_masl": 651.0,
+    "lat": 46.7714,
+    "lon": 7.113736,
+    "point_id": 14
+  },
+  "19": {
+    "station_id": "GRC",
+    "station_name": "Grächen",
+    "canton": "VS",
+    "altitude_masl": 1605.0,
+    "lat": 46.195314,
+    "lon": 7.836822,
+    "point_id": 19
+  },
+  "774": {
+    "station_id": "GRE",
+    "station_name": "Grenchen",
+    "canton": "SO",
+    "altitude_masl": 428.0,
+    "lat": 47.179097,
+    "lon": 7.415144,
+    "point_id": 774
+  },
+  "91": {
+    "station_id": "GRH",
+    "station_name": "Grimsel Hospiz",
+    "canton": "BE",
+    "altitude_masl": 1980.0,
+    "lat": 46.571689,
+    "lon": 8.333256,
+    "point_id": 91
+  },
+  "22": {
+    "station_id": "GRO",
+    "station_name": "Grono",
+    "canton": "GR",
+    "altitude_masl": 324.0,
+    "lat": 46.255075,
+    "lon": 9.163758,
+    "point_id": 22
+  },
+  "62": {
+    "station_id": "GSB",
+    "station_name": "Col du Grand St-Bernard",
+    "canton": "VS",
+    "altitude_masl": 2472.0,
+    "lat": 45.869092,
+    "lon": 7.170683,
+    "point_id": 62
+  },
+  "60": {
+    "station_id": "GUE",
+    "station_name": "G¸tsch, Andermatt",
+    "canton": "UR",
+    "altitude_masl": 2286.0,
+    "lat": 46.652475,
+    "lon": 8.615531,
+    "point_id": 60
+  },
+  "79": {
+    "station_id": "GUT",
+    "station_name": "G¸ttingen",
+    "canton": "TG",
+    "altitude_masl": 440.0,
+    "lat": 47.601733,
+    "lon": 9.279428,
+    "point_id": 79
+  },
+  "58": {
+    "station_id": "GVE",
+    "station_name": "Genève / Cointrin",
+    "canton": "GE",
+    "altitude_masl": 411.0,
+    "lat": 46.247519,
+    "lon": 6.127742,
+    "point_id": 58
+  },
+  "3": {
+    "station_id": "HAI",
+    "station_name": "Salen-Reutenen",
+    "canton": "TG",
+    "altitude_masl": 719.0,
+    "lat": 47.651242,
+    "lon": 9.023911,
+    "point_id": 3
+  },
+  "4": {
+    "station_id": "HLL",
+    "station_name": "Hallau",
+    "canton": "SH",
+    "altitude_masl": 419.0,
+    "lat": 47.697278,
+    "lon": 8.470464,
+    "point_id": 4
+  },
+  "94": {
+    "station_id": "HOE",
+    "station_name": "Hörnli",
+    "canton": "ZH",
+    "altitude_masl": 1133.0,
+    "lat": 47.370864,
+    "lon": 8.941644,
+    "point_id": 94
+  },
+  "630": {
+    "station_id": "ILZ",
+    "station_name": "Ilanz",
+    "canton": "GR",
+    "altitude_masl": 698.0,
+    "lat": 46.775039,
+    "lon": 9.215353,
+    "point_id": 630
+  },
+  "53": {
+    "station_id": "INT",
+    "station_name": "Interlaken",
+    "canton": "BE",
+    "altitude_masl": 578.0,
+    "lat": 46.672033,
+    "lon": 7.87045,
+    "point_id": 53
+  },
+  "33": {
+    "station_id": "JUN",
+    "station_name": "Jungfraujoch",
+    "canton": "VS",
+    "altitude_masl": 3571.0,
+    "lat": 46.547556,
+    "lon": 7.985444,
+    "point_id": 33
+  },
+  "59": {
+    "station_id": "KLO",
+    "station_name": "Z¸rich / Kloten",
+    "canton": "ZH",
+    "altitude_masl": 426.0,
+    "lat": 47.479611,
+    "lon": 8.535961,
+    "point_id": 59
+  },
+  "18": {
+    "station_id": "KOP",
+    "station_name": "Koppigen",
+    "canton": "BE",
+    "altitude_masl": 485.0,
+    "lat": 47.11885,
+    "lon": 7.605503,
+    "point_id": 18
+  },
+  "695": {
+    "station_id": "LAC",
+    "station_name": "Lachen / Galgenen",
+    "canton": "SZ",
+    "altitude_masl": 468.0,
+    "lat": 47.179197,
+    "lon": 8.858686,
+    "point_id": 695
+  },
+  "93": {
+    "station_id": "LAE",
+    "station_name": "Lägern",
+    "canton": "ZH",
+    "altitude_masl": 845.0,
+    "lat": 47.481933,
+    "lon": 8.397222,
+    "point_id": 93
+  },
+  "17": {
+    "station_id": "LAG",
+    "station_name": "Langnau i.E.",
+    "canton": "BE",
+    "altitude_masl": 744.0,
+    "lat": 46.939633,
+    "lon": 7.806425,
+    "point_id": 17
+  },
+  "468": {
+    "station_id": "LAT",
+    "station_name": "Berg¸n / Latsch",
+    "canton": "GR",
+    "altitude_masl": 1408.0,
+    "lat": 46.627275,
+    "lon": 9.753706,
+    "point_id": 468
+  },
+  "89": {
+    "station_id": "LEI",
+    "station_name": "Leibstadt",
+    "canton": "AG",
+    "altitude_masl": 341.0,
+    "lat": 47.597361,
+    "lon": 1.19,
+    "point_id": 89
+  },
+  "47": {
+    "station_id": "LUG",
+    "station_name": "Lugano",
+    "canton": "TI",
+    "altitude_masl": 273.0,
+    "lat": 46.004217,
+    "lon": 8.960322,
+    "point_id": 47
+  },
+  "68": {
+    "station_id": "LUZ",
+    "station_name": "Luzern",
+    "canton": "LU",
+    "altitude_masl": 454.0,
+    "lat": 47.036439,
+    "lon": 8.301022,
+    "point_id": 68
+  },
+  "50": {
+    "station_id": "MAG",
+    "station_name": "Magadino / Cadenazzo",
+    "canton": "TI",
+    "altitude_masl": 203.0,
+    "lat": 46.160025,
+    "lon": 8.933672,
+    "point_id": 50
+  },
+  "308": {
+    "station_id": "MAH",
+    "station_name": "Mathod",
+    "canton": "VD",
+    "altitude_masl": 435.0,
+    "lat": 46.736978,
+    "lon": 6.567983,
+    "point_id": 308
+  },
+  "143": {
+    "station_id": "MAR",
+    "station_name": "Les MarÈcottes",
+    "canton": "VS",
+    "altitude_masl": 990.0,
+    "lat": 46.118903,
+    "lon": 7.016597,
+    "point_id": 143
+  },
+  "748": {
+    "station_id": "MAS",
+    "station_name": "Marsens",
+    "canton": "FR",
+    "altitude_masl": 715.0,
+    "lat": 46.656486,
+    "lon": 7.069669,
+    "point_id": 748
+  },
+  "11": {
+    "station_id": "MER",
+    "station_name": "Meiringen",
+    "canton": "BE",
+    "altitude_masl": 589.0,
+    "lat": 46.732222,
+    "lon": 8.169247,
+    "point_id": 11
+  },
+  "38": {
+    "station_id": "MLS",
+    "station_name": "Le MolÈson",
+    "canton": "FR",
+    "altitude_masl": 1974.0,
+    "lat": 46.546197,
+    "lon": 7.017753,
+    "point_id": 38
+  },
+  "842": {
+    "station_id": "MOA",
+    "station_name": "Mosen",
+    "canton": "LU",
+    "altitude_masl": 453.0,
+    "lat": 47.243847,
+    "lon": 8.232831,
+    "point_id": 842
+  },
+  "506": {
+    "station_id": "MOB",
+    "station_name": "Montagnier, Bagnes",
+    "canton": "VS",
+    "altitude_masl": 839.0,
+    "lat": 46.071019,
+    "lon": 7.225272,
+    "point_id": 506
+  },
+  "301": {
+    "station_id": "MOE",
+    "station_name": "Möhlin",
+    "canton": "AG",
+    "altitude_masl": 343.0,
+    "lat": 47.572197,
+    "lon": 7.877911,
+    "point_id": 301
+  },
+  "317": {
+    "station_id": "MTE",
+    "station_name": "Mottec",
+    "canton": "VS",
+    "altitude_masl": 1580.0,
+    "lat": 46.147897,
+    "lon": 7.624033,
+    "point_id": 317
+  },
+  "414": {
+    "station_id": "MTR",
+    "station_name": "Matro",
+    "canton": "TI",
+    "altitude_masl": 2171.0,
+    "lat": 46.410103,
+    "lon": 8.924742,
+    "point_id": 414
+  },
+  "86": {
+    "station_id": "MUB",
+    "station_name": "M¸hleberg",
+    "canton": "BE",
+    "altitude_masl": 480.0,
+    "lat": 46.973278,
+    "lon": 7.278217,
+    "point_id": 86
+  },
+  "40": {
+    "station_id": "MVE",
+    "station_name": "Montana",
+    "canton": "VS",
+    "altitude_masl": 1423.0,
+    "lat": 46.298806,
+    "lon": 7.460814,
+    "point_id": 40
+  },
+  "48": {
+    "station_id": "NAP",
+    "station_name": "Napf",
+    "canton": "BE",
+    "altitude_masl": 1404.0,
+    "lat": 47.004667,
+    "lon": 7.940117,
+    "point_id": 48
+  },
+  "863": {
+    "station_id": "NAS",
+    "station_name": "Naluns / Schlivera",
+    "canton": "GR",
+    "altitude_masl": 2380.0,
+    "lat": 46.817164,
+    "lon": null,
+    "point_id": 863
+  },
+  "51": {
+    "station_id": "NEU",
+    "station_name": "Neuchâtel",
+    "canton": "NE",
+    "altitude_masl": 485.0,
+    "lat": 47.000067,
+    "lon": 6.953297,
+    "point_id": 51
+  },
+  "1435": {
+    "station_id": "OBR",
+    "station_name": "Oberriet / Kriessern",
+    "canton": "SG",
+    "altitude_masl": 409.0,
+    "lat": 47.376608,
+    "lon": 9.612706,
+    "point_id": 1435
+  },
+  "850": {
+    "station_id": "ORO",
+    "station_name": "Oron",
+    "canton": "VD",
+    "altitude_masl": 828.0,
+    "lat": 46.572269,
+    "lon": 6.858239,
+    "point_id": 850
+  },
+  "84": {
+    "station_id": "OTL",
+    "station_name": "Locarno / Monti",
+    "canton": "TI",
+    "altitude_masl": 367.0,
+    "lat": 46.172256,
+    "lon": 8.787494,
+    "point_id": 84
+  },
+  "32": {
+    "station_id": "PAY",
+    "station_name": "Payerne",
+    "canton": "VD",
+    "altitude_masl": 490.0,
+    "lat": 46.811581,
+    "lon": 6.942469,
+    "point_id": 32
+  },
+  "668": {
+    "station_id": "PFA",
+    "station_name": "Pfäffikon, ZH",
+    "canton": "ZH",
+    "altitude_masl": 537.0,
+    "lat": 47.376817,
+    "lon": 8.754864,
+    "point_id": 668
+  },
+  "43": {
+    "station_id": "PIL",
+    "station_name": "Pilatus",
+    "canton": "OW",
+    "altitude_masl": 2105.0,
+    "lat": 46.978869,
+    "lon": 8.252256,
+    "point_id": 43
+  },
+  "46": {
+    "station_id": "PIO",
+    "station_name": "Piotta",
+    "canton": "TI",
+    "altitude_masl": 990.0,
+    "lat": 46.514811,
+    "lon": 8.688039,
+    "point_id": 46
+  },
+  "95": {
+    "station_id": "PLF",
+    "station_name": "Plaffeien",
+    "canton": "FR",
+    "altitude_masl": 1042.0,
+    "lat": 46.747717,
+    "lon": 7.266264,
+    "point_id": 95
+  },
+  "862": {
+    "station_id": "PMA",
+    "station_name": "Piz Martegnas",
+    "canton": "GR",
+    "altitude_masl": 2668.0,
+    "lat": 46.577181,
+    "lon": 9.529544,
+    "point_id": 862
+  },
+  "331": {
+    "station_id": "PRE",
+    "station_name": "St-Prex",
+    "canton": "VD",
+    "altitude_masl": 425.0,
+    "lat": 46.483683,
+    "lon": 6.443,
+    "point_id": 331
+  },
+  "97": {
+    "station_id": "PSI",
+    "station_name": "W¸renlingen / PSI",
+    "canton": "AG",
+    "altitude_masl": 334.0,
+    "lat": 47.536475,
+    "lon": 8.226944,
+    "point_id": 97
+  },
+  "61": {
+    "station_id": "PUY",
+    "station_name": "Pully",
+    "canton": "VD",
+    "altitude_masl": 456.0,
+    "lat": 46.512283,
+    "lon": 6.667517,
+    "point_id": 61
+  },
+  "860": {
+    "station_id": "QUI",
+    "station_name": "Quinten",
+    "canton": "SG",
+    "altitude_masl": 419.0,
+    "lat": 47.128739,
+    "lon": 9.21605,
+    "point_id": 860
+  },
+  "2": {
+    "station_id": "RAG",
+    "station_name": "Bad Ragaz",
+    "canton": "SG",
+    "altitude_masl": 497.0,
+    "lat": 47.016631,
+    "lon": 9.502594,
+    "point_id": 2
+  },
+  "83": {
+    "station_id": "REH",
+    "station_name": "Z¸rich / Affoltern",
+    "canton": "ZH",
+    "altitude_masl": 444.0,
+    "lat": 47.427694,
+    "lon": 8.517953,
+    "point_id": 83
+  },
+  "28": {
+    "station_id": "ROB",
+    "station_name": "Poschiavo / Robbia",
+    "canton": "GR",
+    "altitude_masl": 1078.0,
+    "lat": 46.347217,
+    "lon": 10.063031,
+    "point_id": 28
+  },
+  "96": {
+    "station_id": "ROE",
+    "station_name": "Robièi",
+    "canton": "TI",
+    "altitude_masl": 1898.0,
+    "lat": 46.443067,
+    "lon": 8.513389,
+    "point_id": 96
+  },
+  "66": {
+    "station_id": "RUE",
+    "station_name": "R¸nenberg",
+    "canton": "BL",
+    "altitude_masl": 611.0,
+    "lat": 47.434572,
+    "lon": 7.879414,
+    "point_id": 66
+  },
+  "35": {
+    "station_id": "SAE",
+    "station_name": "Säntis",
+    "canton": "AI",
+    "altitude_masl": 2501.0,
+    "lat": 47.249447,
+    "lon": 9.343469,
+    "point_id": 35
+  },
+  "152": {
+    "station_id": "SAG",
+    "station_name": "Sattel, SZ",
+    "canton": "SZ",
+    "altitude_masl": 790.0,
+    "lat": 47.081064,
+    "lon": 8.636967,
+    "point_id": 152
+  },
+  "29": {
+    "station_id": "SAM",
+    "station_name": "Samedan",
+    "canton": "GR",
+    "altitude_masl": 1709.0,
+    "lat": 46.526247,
+    "lon": 9.879469,
+    "point_id": 29
+  },
+  "72": {
+    "station_id": "SBE",
+    "station_name": "S. Bernardino",
+    "canton": "GR",
+    "altitude_masl": 1639.0,
+    "lat": 46.463542,
+    "lon": 1.19,
+    "point_id": 72
+  },
+  "52": {
+    "station_id": "SBO",
+    "station_name": "Stabio",
+    "canton": "TI",
+    "altitude_masl": 351.0,
+    "lat": 45.843444,
+    "lon": 8.932364,
+    "point_id": 52
+  },
+  "454": {
+    "station_id": "SCM",
+    "station_name": "Schmerikon",
+    "canton": "SG",
+    "altitude_masl": 408.0,
+    "lat": 47.224933,
+    "lon": null,
+    "point_id": 454
+  },
+  "30": {
+    "station_id": "SCU",
+    "station_name": "Scuol",
+    "canton": "GR",
+    "altitude_masl": 1304.0,
+    "lat": 46.793275,
+    "lon": 10.283267,
+    "point_id": 30
+  },
+  "70": {
+    "station_id": "SHA",
+    "station_name": "Schaffhausen",
+    "canton": "SH",
+    "altitude_masl": 438.0,
+    "lat": 47.689842,
+    "lon": 8.620142,
+    "point_id": 70
+  },
+  "24": {
+    "station_id": "SIA",
+    "station_name": "Segl-Maria",
+    "canton": "GR",
+    "altitude_masl": 1804.0,
+    "lat": 46.432331,
+    "lon": 9.762325,
+    "point_id": 24
+  },
+  "571": {
+    "station_id": "SIM",
+    "station_name": "Simplon-Dorf",
+    "canton": "VS",
+    "altitude_masl": 1465.0,
+    "lat": 46.196825,
+    "lon": 8.056336,
+    "point_id": 571
+  },
+  "49": {
+    "station_id": "SIO",
+    "station_name": "Sion",
+    "canton": "VS",
+    "altitude_masl": 482.0,
+    "lat": 46.21865,
+    "lon": 7.330203,
+    "point_id": 49
+  },
+  "71": {
+    "station_id": "SMA",
+    "station_name": "Z¸rich / Fluntern",
+    "canton": "ZH",
+    "altitude_masl": 556.0,
+    "lat": 47.377925,
+    "lon": 8.565742,
+    "point_id": 71
+  },
+  "25": {
+    "station_id": "SMM",
+    "station_name": "Sta. Maria, Val M¸stair",
+    "canton": "GR",
+    "altitude_masl": 1386.0,
+    "lat": 46.602256,
+    "lon": 10.426314,
+    "point_id": 25
+  },
+  "859": {
+    "station_id": "SPF",
+    "station_name": "Sch¸pfheim",
+    "canton": "LU",
+    "altitude_masl": 744.0,
+    "lat": 46.947042,
+    "lon": 8.012442,
+    "point_id": 859
+  },
+  "1024": {
+    "station_id": "SRS",
+    "station_name": "Schiers",
+    "canton": "GR",
+    "altitude_masl": 626.0,
+    "lat": 46.975506,
+    "lon": 9.668075,
+    "point_id": 1024
+  },
+  "181": {
+    "station_id": "STC",
+    "station_name": "St. Chrischona",
+    "canton": "BS",
+    "altitude_masl": 493.0,
+    "lat": 47.571767,
+    "lon": 7.687094,
+    "point_id": 181
+  },
+  "56": {
+    "station_id": "STG",
+    "station_name": "St. Gallen",
+    "canton": "SG",
+    "altitude_masl": 776.0,
+    "lat": 47.425475,
+    "lon": 9.398528,
+    "point_id": 56
+  },
+  "855": {
+    "station_id": "STK",
+    "station_name": "Steckborn",
+    "canton": "TG",
+    "altitude_masl": 397.0,
+    "lat": 47.668628,
+    "lon": 8.981433,
+    "point_id": 855
+  },
+  "82": {
+    "station_id": "TAE",
+    "station_name": "Aadorf / Tänikon",
+    "canton": "TG",
+    "altitude_masl": 539.0,
+    "lat": 47.479892,
+    "lon": 8.904928,
+    "point_id": 82
+  },
+  "738": {
+    "station_id": "THU",
+    "station_name": "Thun",
+    "canton": "BE",
+    "altitude_masl": 570.0,
+    "lat": 46.749853,
+    "lon": 7.585222,
+    "point_id": 738
+  },
+  "273": {
+    "station_id": "TIT",
+    "station_name": "Titlis",
+    "canton": "OW",
+    "altitude_masl": 3045.0,
+    "lat": 46.770608,
+    "lon": 8.425981,
+    "point_id": 273
+  },
+  "392": {
+    "station_id": "UEB",
+    "station_name": "Uetliberg",
+    "canton": "ZH",
+    "altitude_masl": 854.0,
+    "lat": 47.351364,
+    "lon": 8.490225,
+    "point_id": 392
+  },
+  "45": {
+    "station_id": "ULR",
+    "station_name": "Ulrichen",
+    "canton": "VS",
+    "altitude_masl": 1346.0,
+    "lat": 46.504881,
+    "lon": 8.308236,
+    "point_id": 45
+  },
+  "861": {
+    "station_id": "VAB",
+    "station_name": "Valbella",
+    "canton": "GR",
+    "altitude_masl": 1568.0,
+    "lat": 46.755039,
+    "lon": 9.554433,
+    "point_id": 861
+  },
+  "36": {
+    "station_id": "VAD",
+    "station_name": "Vaduz",
+    "canton": "FL",
+    "altitude_masl": 457.0,
+    "lat": 47.127472,
+    "lon": 9.517578,
+    "point_id": 36
+  },
+  "205": {
+    "station_id": "VEV",
+    "station_name": "Vevey / Corseaux",
+    "canton": "VD",
+    "altitude_masl": 405.0,
+    "lat": 46.471239,
+    "lon": 6.815056,
+    "point_id": 205
+  },
+  "1118": {
+    "station_id": "VIO",
+    "station_name": "Vicosoprano",
+    "canton": "GR",
+    "altitude_masl": 1089.0,
+    "lat": 46.353019,
+    "lon": null,
+    "point_id": 1118
+  },
+  "64": {
+    "station_id": "VIS",
+    "station_name": "Visp",
+    "canton": "VS",
+    "altitude_masl": 639.0,
+    "lat": 46.3029,
+    "lon": 7.842958,
+    "point_id": 64
+  },
+  "762": {
+    "station_id": "VIT",
+    "station_name": "Villars-Tiercelin",
+    "canton": "VD",
+    "altitude_masl": 859.0,
+    "lat": 46.621778,
+    "lon": 6.710069,
+    "point_id": 762
+  },
+  "338": {
+    "station_id": "VLS",
+    "station_name": "Vals",
+    "canton": "GR",
+    "altitude_masl": 1242.0,
+    "lat": 46.627758,
+    "lon": 9.188711,
+    "point_id": 338
+  },
+  "81": {
+    "station_id": "WAE",
+    "station_name": "Wädenswil",
+    "canton": "ZH",
+    "altitude_masl": 485.0,
+    "lat": 47.220958,
+    "lon": 8.677706,
+    "point_id": 81
+  },
+  "73": {
+    "station_id": "WFJ",
+    "station_name": "Weissfluhjoch",
+    "canton": "GR",
+    "altitude_masl": 2691.0,
+    "lat": 46.833325,
+    "lon": 9.806394,
+    "point_id": 73
+  },
+  "34": {
+    "station_id": "WYN",
+    "station_name": "Wynau",
+    "canton": "BE",
+    "altitude_masl": 422.0,
+    "lat": 47.255025,
+    "lon": 7.787475,
+    "point_id": 34
+  },
+  "41": {
+    "station_id": "ZER",
+    "station_name": "Zermatt",
+    "canton": "VS",
+    "altitude_masl": 1638.0,
+    "lat": 46.029272,
+    "lon": 7.752433,
+    "point_id": 41
+  }
+}

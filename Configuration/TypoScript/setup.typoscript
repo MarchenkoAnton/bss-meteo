@@ -1,0 +1,14 @@
+tt_content.bss_meteo_widget = FLUIDTEMPLATE
+tt_content.bss_meteo_widget {
+    templateRootPaths {
+        10 = EXT:bss_meteo_widget/Resources/Private/Templates/
+    }
+    partialRootPaths {
+        10 = EXT:bss_meteo_widget/Resources/Private/Partials/
+    }
+    layoutRootPaths {
+        10 = EXT:bss_meteo_widget/Resources/Private/Layouts/
+    }
+
+    templateName = Frontend
+}

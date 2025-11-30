@@ -7,11 +7,11 @@ services:
   Bermuda\BssMeteoWidget\:
     resource: '../Classes/*'
 
-  Bermuda\BssMeteoWidget\Command\DownloaderCommand:
+  Bermuda\BssMeteoWidget\Command\SetupCommand:
     tags:
       - name: console.command
-        command: 'meteo:download'
-        description: 'Download MeteoSwiss NOWCAST forecast'
+        command: 'bss-meteo:setup'
+        description: 'Prepare MeteoSwiss directory structure for BSS Meteo Widget'
 
   Bermuda\BssMeteoWidget\Task\WeatherSchedulerTask:
     tags:

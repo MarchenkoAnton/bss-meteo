@@ -1,0 +1,316 @@
+<f:layout name="Default" />
+
+<f:asset.css identifier="weatherWidgetCss" href="{cb:assetPath()}/Css/meteo.css"/>
+<f:asset.script identifier="weatherWidgetJs" src="{cb:assetPath()}/Js/meteo.js" />
+<!-- POINT ID -->
+<f:variable name="pointId" value="{data.bermuda_meteoswiss_weather_station}" />
+
+<!-- BASE JSONS -->
+<f:variable name="stationsJson" value="/fileadmin/meteoswiss/weather_stations_min.json" />
+<f:variable name="symbolMapJson" value="/fileadmin/meteoswiss/weather_icons/symbol_map.json" />
+
+<!-- HOURLY PARAMETERS -->
+<f:variable name="url_tre200h0" value="/fileadmin/meteoswiss/hourly/tre200h0/{pointId}.json" />
+<f:variable name="url_fu3010h0" value="/fileadmin/meteoswiss/hourly/fu3010h0/{pointId}.json" />
+<f:variable name="url_fu3010h1" value="/fileadmin/meteoswiss/hourly/fu3010h1/{pointId}.json" />
+<f:variable name="url_dkl010h0" value="/fileadmin/meteoswiss/hourly/dkl010h0/{pointId}.json" />
+<f:variable name="url_rre150h0" value="/fileadmin/meteoswiss/hourly/rre150h0/{pointId}.json" />
+<f:variable name="url_nprolohs" value="/fileadmin/meteoswiss/hourly/nprolohs/{pointId}.json" />
+<f:variable name="url_npromths" value="/fileadmin/meteoswiss/hourly/npromths/{pointId}.json" />
+<f:variable name="url_nprohihs" value="/fileadmin/meteoswiss/hourly/nprohihs/{pointId}.json" />
+<f:variable name="url_sre000h0" value="/fileadmin/meteoswiss/hourly/sre000h0/{pointId}.json" />
+<f:variable name="url_gre000h0" value="/fileadmin/meteoswiss/hourly/gre000h0/{pointId}.json" />
+<f:variable name="url_zprfr0hs" value="/fileadmin/meteoswiss/hourly/zprfr0hs/{pointId}.json" />
+
+<!-- 3-HOURLY PARAMETERS -->
+<f:variable name="url_jww003i0" value="/fileadmin/meteoswiss/3hourly/jww003i0/{pointId}.json" />
+<f:variable name="url_rp0003i0" value="/fileadmin/meteoswiss/3hourly/rp0003i0/{pointId}.json" />
+
+<!-- DAILY PARAMETERS -->
+<f:variable name="url_jp2000d0" value="/fileadmin/meteoswiss/daily/jp2000d0/{pointId}.json" />
+<f:variable name="url_rka150p0" value="/fileadmin/meteoswiss/daily/rka150p0/{pointId}.json" />
+<f:variable name="url_tre200dn" value="/fileadmin/meteoswiss/daily/tre200dn/{pointId}.json" />
+<f:variable name="url_tre200dx" value="/fileadmin/meteoswiss/daily/tre200dx/{pointId}.json" />
+
+<!-- ROOT DIV WITH ALL DATA-URL ATTRIBUTES -->
+<div class="bss-meteoswiss-widget<f:if condition='{data.bermuda_meteoswiss_bg_color}'><f:then> bss-has-custom-colors</f:then></f:if>"
+     data-bss-meteo="widget"
+     data-point-id="{pointId}"
+
+     data-url-tre200h0="{url_tre200h0}"
+     data-url-fu3010h0="{url_fu3010h0}"
+     data-url-fu3010h1="{url_fu3010h1}"
+     data-url-dkl010h0="{url_dkl010h0}"
+     data-url-rre150h0="{url_rre150h0}"
+     data-url-nprolohs="{url_nprolohs}"
+     data-url-npromths="{url_npromths}"
+     data-url-nprohihs="{url_nprohihs}"
+     data-url-sre000h0="{url_sre000h0}"
+     data-url-gre000h0="{url_gre000h0}"
+     data-url-zprfr0hs="{url_zprfr0hs}"
+
+     data-url-jww003i0="{url_jww003i0}"
+     data-url-rp0003i0="{url_rp0003i0}"
+
+     data-url-jp2000d0="{url_jp2000d0}"
+     data-url-rka150p0="{url_rka150p0}"
+     data-url-tre200dn="{url_tre200dn}"
+     data-url-tre200dx="{url_tre200dx}"
+
+     data-stations-url="{stationsJson}"
+     data-symbol-map-url="{symbolMapJson}"
+
+<f:if condition="{data.bermuda_meteoswiss_bg_color}">
+    <f:then>
+        style="background:{data.bermuda_meteoswiss_bg_color};color:{data.bermuda_meteoswiss_text_color};"
+    </f:then>
+</f:if>
+>
+
+<!-- HEADER -->
+<div class="meteo-header">
+    <div class="meteo-header-line">
+        <span class="station-name" data-bss-role="station-name"></span>
+        <span class="station-canton" data-bss-role="station-canton"></span>
+        <span class="station-altitude" data-bss-role="station-altitude"></span>
+        <span class="station-coords" data-bss-role="station-coords"></span>
+
+        <span class="station-time">
+            · Stand:
+            <f:if condition="{data.bermuda_meteoswiss_last_update_display}">
+                <f:then>
+                    {data.bermuda_meteoswiss_last_update_display}
+                </f:then>
+                <f:else>
+                    <span data-bss-role="station-time"></span>
+                </f:else>
+            </f:if>
+        </span>
+
+        <span class="station-license">· MeteoSchweiz (CC BY 4.0)</span>
+    </div>
+</div>
+
+<!-- NOWCAST GRID -->
+<div class="nowcast-grid">
+
+    <!-- A) SYMBOL BLOCK -->
+    <div class="nowcast-symbol">
+        <div class="compact-icon-temp">
+            <img class="compact-icon" data-bss-role="now-icon" alt="">
+            <div class="compact-temp" data-bss-role="now-temp"></div>
+        </div>
+
+        <div class="nowcast-time-line">
+            Jetzt: <span data-bss-role="now-time"></span>
+        </div>
+
+        <div class="compact-desc" data-bss-role="now-desc"></div>
+
+        <button class="mw-toggle-full"
+                data-target="mw-full-forecast"
+                data-open="Mehr Details"
+                data-close="Weniger Details">
+            Mehr Details
+        </button>
+    </div>
+
+    <!-- B) PARAMETERS AND NOW VALUES -->
+    <div class="nowcast-params">
+
+        <f:if condition="{data.bermuda_meteoswiss_tre200h0}">
+            <div class="nowcast-param-row">
+                <div class="nowcast-param-label">Lufttemperatur 2 m, Stundenmittel</div>
+                <div class="nowcast-param-value" data-bss-role="tre200h0">–</div>
+            </div>
+        </f:if>
+
+        <f:if condition="{data.bermuda_meteoswiss_fu3010h0}">
+            <div class="nowcast-param-row">
+                <div class="nowcast-param-label">Windgeschwindigkeit, Stundenmittel</div>
+                <div class="nowcast-param-value" data-bss-role="fu3010h0">–</div>
+            </div>
+        </f:if>
+
+        <f:if condition="{data.bermuda_meteoswiss_fu3010h1}">
+            <div class="nowcast-param-row">
+                <div class="nowcast-param-label">Windböen, Stundenmaximum</div>
+                <div class="nowcast-param-value" data-bss-role="fu3010h1">–</div>
+            </div>
+        </f:if>
+
+        <f:if condition="{data.bermuda_meteoswiss_dkl010h0}">
+            <div class="nowcast-param-row">
+                <div class="nowcast-param-label">Windrichtung, Stundenmittel</div>
+                <div class="nowcast-param-value" data-bss-role="dkl010h0">–</div>
+            </div>
+        </f:if>
+
+        <f:if condition="{data.bermuda_meteoswiss_rre150h0}">
+            <div class="nowcast-param-row">
+                <div class="nowcast-param-label">Niederschlag, Stundensumme</div>
+                <div class="nowcast-param-value" data-bss-role="rre150h0">–</div>
+            </div>
+        </f:if>
+
+        <f:if condition="{data.bermuda_meteoswiss_nprolohs}">
+            <div class="nowcast-param-row">
+                <div class="nowcast-param-label">Tiefe Bewölkung, Stundenmittel</div>
+                <div class="nowcast-param-value" data-bss-role="nprolohs">–</div>
+            </div>
+        </f:if>
+
+        <f:if condition="{data.bermuda_meteoswiss_npromths}">
+            <div class="nowcast-param-row">
+                <div class="nowcast-param-label">Mittlere Bewölkung, Stundenmittel</div>
+                <div class="nowcast-param-value" data-bss-role="npromths">–</div>
+            </div>
+        </f:if>
+
+        <f:if condition="{data.bermuda_meteoswiss_nprohihs}">
+            <div class="nowcast-param-row">
+                <div class="nowcast-param-label">Hohe Bewölkung, Stundenmittel</div>
+                <div class="nowcast-param-value" data-bss-role="nprohihs">–</div>
+            </div>
+        </f:if>
+
+        <f:if condition="{data.bermuda_meteoswiss_sre000h0}">
+            <div class="nowcast-param-row">
+                <div class="nowcast-param-label">Sonnenscheindauer, Stunde</div>
+                <div class="nowcast-param-value" data-bss-role="sre000h0">–</div>
+            </div>
+        </f:if>
+
+        <f:if condition="{data.bermuda_meteoswiss_gre000h0}">
+            <div class="nowcast-param-row">
+                <div class="nowcast-param-label">Globalstrahlung, Stundenmittel</div>
+                <div class="nowcast-param-value" data-bss-role="gre000h0">–</div>
+            </div>
+        </f:if>
+
+        <f:if condition="{data.bermuda_meteoswiss_zprfr0hs}">
+            <div class="nowcast-param-row">
+                <div class="nowcast-param-label">Nullgradgrenze, Stundenwert</div>
+                <div class="nowcast-param-value" data-bss-role="zprfr0hs">–</div>
+            </div>
+        </f:if>
+
+    </div>
+
+    <!-- C) FORECAST CARDS -->
+    <div class="nowcast-cards">
+
+        <!-- CARD 1: NEXT 3 HOURS -->
+        <div class="forecast-card" data-forecast="3h">
+
+            <div class="forecast-card-header">
+                Nächste 3 Stunden · <span data-bss-role="card-3h-time">–</span>
+            </div>
+
+            <!-- Блок символа (наповнюється JS) -->
+            <div class="forecast-symbol-block">
+                <img class="forecast-icon-large" data-bss-role="card-3h-icon" alt="">
+                <div class="forecast-symbol-main">
+                    <div class="forecast-symbol-temp" data-bss-role="card-3h-temp">–</div>
+                    <div class="forecast-symbol-desc" data-bss-role="card-3h-desc">–</div>
+                </div>
+            </div>
+
+            <!-- Список параметрів -->
+            <div class="forecast-param-list">
+
+                <div class="forecast-param-row">
+                    <div class="forecast-param-label">Regenwahrscheinlichkeit</div>
+                    <div class="forecast-param-value" data-bss-role="card-3h-rp0003i0">–</div>
+                </div>
+
+                <div class="forecast-param-row">
+                    <div class="forecast-param-label">Windgeschwindigkeit, Stundenmittel</div>
+                    <div class="forecast-param-value" data-bss-role="card-3h-fu3010h0">–</div>
+                </div>
+
+                <div class="forecast-param-row">
+                    <div class="forecast-param-label">Windböen, Stundenmaximum</div>
+                    <div class="forecast-param-value" data-bss-role="card-3h-fu3010h1">–</div>
+                </div>
+
+                <div class="forecast-param-row">
+                    <div class="forecast-param-label">Windrichtung, Stundenmittel</div>
+                    <div class="forecast-param-value" data-bss-role="card-3h-dkl010h0">–</div>
+                </div>
+
+                <div class="forecast-param-row">
+                    <div class="forecast-param-label">Tiefe Bewölkung, Stundenmittel</div>
+                    <div class="forecast-param-value" data-bss-role="card-3h-nprolohs">–</div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- CARD 2: TOMORROW -->
+        <div class="forecast-card" data-forecast="tomorrow">
+            <div class="forecast-card-header">
+                Morgen · <span data-bss-role="card-tomorrow-date">–</span>
+            </div>
+
+            <!-- БЛОК СИМВОЛА -->
+            <div class="forecast-symbol-block">
+                <img class="forecast-icon-large" data-bss-role="card-tomorrow-icon" alt="">
+
+                <div class="forecast-symbol-main">
+                    <div class="forecast-symbol-temp" data-bss-role="card-tomorrow-temp-range">–</div>
+                    <div class="forecast-symbol-desc" data-bss-role="card-tomorrow-desc">–</div>
+                </div>
+            </div>
+
+            <!-- НАЗВА ПАРАМЕТРА + ОПАДИ -->
+            <div class="forecast-param-list">
+                <div class="forecast-param-row">
+                    <div class="forecast-param-label">Niederschlag, Tagessumme</div>
+                    <div class="forecast-param-value" data-bss-role="card-tomorrow-rka150p0">–</div>
+                </div>
+                <div class="forecast-param-row">
+                    <div class="forecast-param-label">Sonnenscheindauer, Tagessumme</div>
+                    <div class="forecast-param-value" data-bss-role="card-tomorrow-sre000h0">–</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 3: DAY AFTER TOMORROW -->
+        <div class="forecast-card" data-forecast="day2">
+            <div class="forecast-card-header">
+                Übermorgen · <span data-bss-role="card-day2-date">–</span>
+            </div>
+
+            <!-- БЛОК СИМВОЛА -->
+            <div class="forecast-symbol-block">
+                <img class="forecast-icon-large" data-bss-role="card-day2-icon" alt="">
+
+                <div class="forecast-symbol-main">
+                    <div class="forecast-symbol-temp" data-bss-role="card-day2-temp-range">–</div>
+                    <div class="forecast-symbol-desc" data-bss-role="card-day2-desc">–</div>
+                </div>
+            </div>
+
+            <!-- НАЗВА ПАРАМЕТРА + ОПАДИ -->
+            <div class="forecast-param-list">
+                <div class="forecast-param-row">
+                    <div class="forecast-param-label">Niederschlag, Tagessumme</div>
+                    <div class="forecast-param-value" data-bss-role="card-day2-rka150p0">–</div>
+                </div>
+                <div class="forecast-param-row">
+                    <div class="forecast-param-label">Sonnenscheindauer, Tagessumme</div>
+                    <div class="forecast-param-value" data-bss-role="card-day2-sre000h0">–</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<!--<div id="mw-full-forecast" class="mw-full-hidden">-->
+<!--    <f:render partial="WeatherWidget/Full" arguments="{_all}" />-->
+<!--</div>-->

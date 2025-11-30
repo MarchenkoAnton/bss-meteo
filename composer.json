@@ -12,8 +12,10 @@
   "require": {
     "typo3/cms-core": "^13.4",
     "typo3/cms-backend": "^13.4",
-    "typo3/cms-frontend": "^13.4",
-    "typo3/cms-content-blocks": "^13.4"
+    "typo3/cms-frontend": "^13.4"
+  },
+  "suggest": {
+    "typo3/cms-scheduler": "Required to run automatic forecast updates via Scheduler"
   },
   "extra": {
     "typo3/cms": {

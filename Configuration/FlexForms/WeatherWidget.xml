@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<T3DataStructure>
+    <sheets>
+
+        <!-- =======================================================
+             SHEET: GENERAL
+        ======================================================== -->
+        <sheet index="general">
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>General</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+
+                    <!-- Wetterstation (select зі списком станцій) -->
+                    <weather_station>
+                        <TCEforms>
+                            <label>Wetterstation</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Bermuda\BssMeteoWidget\Utility\StationList->getStations</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </weather_station>
+
+                    <!-- Reload flag -->
+                    <reload_data>
+                        <TCEforms>
+                            <label>Daten beim Speichern neu laden</label>
+                            <config>
+                                <type>check</type>
+                                <default>0</default>
+                            </config>
+                        </TCEforms>
+                    </reload_data>
+
+                    <!-- Last update display (read only, заповнюється Scheduler-ом) -->
+                    <last_update_display>
+                        <TCEforms>
+                            <label>Letzte Aktualisierung</label>
+                            <config>
+                                <type>input</type>
+                                <readOnly>1</readOnly>
+                            </config>
+                        </TCEforms>
+                    </last_update_display>
+
+                    <!-- Weather symbols -->
+                    <jp2000d0>
+                        <TCEforms>
+                            <label>Piktogramm – Tageswert</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </jp2000d0>
+
+                    <jww003i0>
+                        <TCEforms>
+                            <label>Piktogramm – 3h Vorhersage</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </jww003i0>
+
+                    <!-- Detailansicht -->
+                    <show_detailed_view>
+                        <TCEforms>
+                            <label>Detailansicht anzeigen</label>
+                            <config>
+                                <type>check</type>
+                                <default>1</default>
+                            </config>
+                        </TCEforms>
+                    </show_detailed_view>
+
+                    <!-- Farben -->
+                    <bg_color>
+                        <TCEforms>
+                            <label>Hintergrundfarbe</label>
+                            <config>
+                                <type>input</type>
+                                <renderType>colorpicker</renderType>
+                                <default>#004477</default>
+                            </config>
+                        </TCEforms>
+                    </bg_color>
+
+                    <text_color>
+                        <TCEforms>
+                            <label>Textfarbe</label>
+                            <config>
+                                <type>input</type>
+                                <renderType>colorpicker</renderType>
+                                <default>#ffffff</default>
+                            </config>
+                        </TCEforms>
+                    </text_color>
+
+                </el>
+            </ROOT>
+        </sheet>
+
+        <!-- =======================================================
+             SHEET: TEMPERATURE
+        ======================================================== -->
+        <sheet index="temperature">
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Temperature</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+
+                    <tre200h0>
+                        <TCEforms>
+                            <label>Lufttemperatur 2m – Stundenmittel</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </tre200h0>
+
+                    <tre200dn>
+                        <TCEforms>
+                            <label>Tagesminimum</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </tre200dn>
+
+                    <tre200dx>
+                        <TCEforms>
+                            <label>Tagesmaximum</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </tre200dx>
+
+                </el>
+            </ROOT>
+        </sheet>
+
+        <!-- =======================================================
+             SHEET: WIND
+        ======================================================== -->
+        <sheet index="wind">
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Wind</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+
+                    <fu3010h0>
+                        <TCEforms>
+                            <label>Windgeschwindigkeit – Stundenmittel (km/h)</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </fu3010h0>
+
+                    <fu3010h1>
+                        <TCEforms>
+                            <label>Windböen – Stundenmaximum (km/h)</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </fu3010h1>
+
+                    <dkl010h0>
+                        <TCEforms>
+                            <label>Windrichtung – Stundenmittel</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </dkl010h0>
+
+                </el>
+            </ROOT>
+        </sheet>
+
+        <!-- =======================================================
+             SHEET: PRECIPITATION
+        ======================================================== -->
+        <sheet index="precip">
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Precipitation</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+
+                    <rre150h0>
+                        <TCEforms>
+                            <label>Stundensumme (mm)</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </rre150h0>
+
+                    <rka150p0>
+                        <TCEforms>
+                            <label>Tagessumme (Lokalzeit)</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </rka150p0>
+
+                    <rp0003i0>
+                        <TCEforms>
+                            <label>Regenwahrscheinlichkeit – 3h (%)</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </rp0003i0>
+
+                </el>
+            </ROOT>
+        </sheet>
+
+        <!-- =======================================================
+             SHEET: CLOUDS
+        ======================================================== -->
+        <sheet index="clouds">
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Clouds</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+
+                    <nprolohs>
+                        <TCEforms>
+                            <label>Tiefe Bewölkung (%)</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </nprolohs>
+
+                    <npromths>
+                        <TCEforms>
+                            <label>Mittlere Bewölkung (%)</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </npromths>
+
+                    <nprohihs>
+                        <TCEforms>
+                            <label>Hohe Bewölkung (%)</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </nprohihs>
+
+                </el>
+            </ROOT>
+        </sheet>
+
+        <!-- =======================================================
+             SHEET: SUN & RADIATION
+        ======================================================== -->
+        <sheet index="sunrad">
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Sun &amp; Radiation</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+
+                    <sre000h0>
+                        <TCEforms>
+                            <label>Sonnenscheindauer – Stunde (min)</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </sre000h0>
+
+                    <gre000h0>
+                        <TCEforms>
+                            <label>Globalstrahlung – Stundenmittel (W/m²)</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </gre000h0>
+
+                </el>
+            </ROOT>
+        </sheet>
+
+        <!-- =======================================================
+             SHEET: ZERO-DEGREE LINE
+        ======================================================== -->
+        <sheet index="zero">
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Zero-degree line</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+
+                    <zprfr0hs>
+                        <TCEforms>
+                            <label>Nullgradgrenze – Stundenwert (m)</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </zprfr0hs>
+
+                </el>
+            </ROOT>
+        </sheet>
+
+    </sheets>
+</T3DataStructure>

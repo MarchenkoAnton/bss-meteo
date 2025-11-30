@@ -1,0 +1,464 @@
+.bss-meteoswiss-widget {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 20px;
+    background: #ffffff;
+    padding: 20px 24px;
+    border-radius: 10px;
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+}
+
+.bss-meteoswiss-widget.bss-has-custom-colors {
+}
+
+.meteo-header-line {
+    font-size: 14px;
+    color: #444;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.station-name {
+    font-weight: 600;
+}
+
+.station-canton,
+.station-altitude,
+.station-coords,
+.station-time,
+.station-license {
+    color: #777;
+    font-size: 12px;
+}
+
+.nowcast-grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 12px 16px;
+    padding: 8px 0;
+    align-items: flex-start;
+}
+.nowcast-symbol {
+    grid-column: 1 / span 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.compact-icon-temp {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.compact-icon {
+    width: 128px;
+    height: 128px;
+    display: block;
+}
+
+.compact-temp {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+    color: inherit;
+}
+
+.nowcast-time-line {
+    font-size: 12px;
+    color: inherit;
+    opacity: 0.8;
+}
+
+.nowcast-time-line span[data-bss-role="now-time"] {
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+}
+
+.compact-desc {
+    font-size: 24px;
+    color: #ff9027;
+    opacity: 0.9;
+    line-height: 1.3;
+    max-width: 260px;
+}
+.nowcast-params {
+    grid-column: 4 / span 3;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 12px;
+}
+.nowcast-param-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.nowcast-param-label {
+    flex: 1 1 auto;
+    line-height: 1.3;
+    opacity: 0.9;
+}
+
+.nowcast-param-value {
+    flex: 0 0 auto;
+    min-width: 60px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    color: inherit;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nowcast-cards {
+    grid-column: 7 / span 6;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.forecast-card {
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    /*background: rgba(0, 0, 0, 0.02);*/
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.forecast-card-header {
+    font-size: 12px;
+    color: inherit;
+    opacity: 0.8;
+}
+
+.forecast-card-body {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.forecast-icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    display: block;
+}
+
+.forecast-card-main {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 13px;
+}
+
+.forecast-temp,
+.forecast-temp-range {
+    font-weight: 600;
+    color: inherit;
+}
+
+.forecast-precip {
+    font-size: 12px;
+    color: inherit;
+    opacity: 0.85;
+}
+
+@media (max-width: 900px) {
+    .nowcast-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .nowcast-symbol {
+        grid-column: 1 / span 4;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .compact-desc {
+        max-width: none;
+    }
+
+    .nowcast-params {
+        grid-column: 1 / span 4;
+    }
+
+    .nowcast-cards {
+        grid-column: 1 / span 4;
+        grid-template-columns: 1fr;
+    }
+}
+.mw-full-hidden {
+    display: none;
+}
+
+.forecast-symbol-block {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 0 12px 0;
+}
+
+.forecast-icon-large {
+    width: 48px;
+    height: 48px;
+}
+
+.forecast-symbol-main {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.forecast-symbol-temp {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.forecast-symbol-desc {
+    font-size: 16px;
+    opacity: 0.9;
+    color: #ff9027;
+}
+
+
+.forecast-param-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 4px;
+}
+
+.forecast-param-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    font-size: 11px;
+    line-height: 1.25;
+    min-width: 0;
+}
+
+.forecast-param-label {
+    flex: 1 1 auto;
+    min-width: 0;
+    opacity: 0.85;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+
+.forecast-param-value {
+    flex: 0 0 auto;
+    text-align: right;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    padding-left: 4px;
+}
+
+.mw-toggle-full {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    padding: 4px 14px;
+    min-width: 150px;
+
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+
+    background: transparent;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    cursor: pointer;
+
+    color: inherit;
+    box-shadow: none;
+    transition: background 0.15s ease, transform 0.1s ease, opacity 0.15s ease;
+}
+
+.mw-toggle-full::after {
+    content: "▾";
+    font-size: 11px;
+    line-height: 1;
+}
+
+.mw-toggle-full:hover {
+    background: rgba(0, 0, 0, 0.04);
+    transform: translateY(-1px);
+}
+
+.mw-toggle-full:active {
+    transform: translateY(0);
+    opacity: 0.85;
+}
+
+.meteo-full-inner {
+    padding: 24px 0;
+}
+
+.full-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.full-weather-strip {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.full-weather-strip .day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.full-weather-strip img {
+    width: 36px;
+    height: 36px;
+}
+
+.full-weather-strip .date {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.full-weather-strip .desc {
+    font-size: 11px;
+    opacity: 0.75;
+    line-height: 1.2;
+}
+
+/* GRAPH */
+.full-graph-area {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+#full-graph-canvas {
+    width: 100%;
+    height: 380px;
+    display: block;
+}
+
+
+.full-back-btn {
+    border: none;
+    background: #1976d2;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-topicLinkElement {
+    background-color: #fff;
+    color: var(--bss-main-color);
+    border-color: var(--bss-main-color);
+    border-width: 1px;
+    border-radius: 0px;
+    margin-right: 10px;
+    margin-bottom: 14px;
+}
+.bss-flip-gallery {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    background-color: var(--flip-gallery-bg);
+}
+
+.bss-flip-gallery.grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+.bss-flip-gallery.grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+.bss-flip-gallery.grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+.bss-flip-gallery.grid-cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.bss-flip-card {
+    perspective: 1000px;
+}
+
+.bss-flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.bss-flip-card:hover .bss-flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.bss-flip-card-front,
+.bss-flip-card-back {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 0px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    /*box-shadow: 0 2px 6px #676767;*/
+}
+
+.bss-flip-card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.bss-flip-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--flipbox-bg, #fff);
+    color: #383838;
+    transform: rotateY(180deg);
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.bss-flip-card-back h3 {
+    margin-top: 0;
+    color: var(--flipbox-text-color, #676767);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.bss-flip-card-back p {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+}
+
+.bss-flip-card-back a {
+    color: #676767;
+    text-decoration: none;
+}
+
+.bss-flip-card-back a:hover {
+    text-decoration: underline;
+}
