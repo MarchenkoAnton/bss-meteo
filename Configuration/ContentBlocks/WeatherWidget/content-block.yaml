@@ -1,0 +1,6 @@
+name: "bss_meteo_widget"
+type: "content"
+title: "Weather Widget MeteoSwiss"
+description: "Real-time NOWCAST weather forecast using MeteoSwiss"
+template: "WeatherWidget/frontend.html"
+group: "widgets"

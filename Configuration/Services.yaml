@@ -1,0 +1,18 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Bermuda\BssMeteoWidget\:
+    resource: '../Classes/*'
+
+  Bermuda\BssMeteoWidget\Command\DownloaderCommand:
+    tags:
+      - name: console.command
+        command: 'meteo:download'
+        description: 'Download MeteoSwiss NOWCAST forecast'
+
+  Bermuda\BssMeteoWidget\Task\WeatherSchedulerTask:
+    tags:
+      - name: scheduler.task
