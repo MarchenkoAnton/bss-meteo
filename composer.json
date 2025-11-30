@@ -1,5 +1,5 @@
 {
-  "name": "bermuda/bss-meteo-widget",
+  "name": "bermuda-software/bss-meteo-widget",
   "type": "typo3-cms-extension",
   "description": "MeteoSwiss NOWCAST Weather Widget for TYPO3 13.4",
   "license": "GPL-2.0-or-later",
