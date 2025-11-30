@@ -1,0 +1,28 @@
+{
+  "name": "bermuda/bss-meteo-widget",
+  "type": "typo3-cms-extension",
+  "description": "MeteoSwiss NOWCAST Weather Widget for TYPO3 13.4",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Bermuda Software Solutions",
+      "email": "anton.marchenko@bermuda-software.ch"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^13.4",
+    "typo3/cms-backend": "^13.4",
+    "typo3/cms-frontend": "^13.4",
+    "typo3/cms-content-blocks": "^13.4"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "bss_meteo_widget"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Bermuda\\BssMeteoWidget\\": "Classes/"
+    }
+  }
+}
